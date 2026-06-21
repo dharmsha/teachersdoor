@@ -743,7 +743,7 @@ export default function PaymentContent() {
           <div className="bg-gradient-to-r from-blue-50/50 to-purple-50/50 border border-blue-100 rounded-2xl p-6">
             <p className="text-gray-700 text-center mb-4">
               <strong>Important:</strong> This is a real payment gateway. 
-              {userType === 'candidate' ? ' ₹599 for Job Seekers' : ' ₹999 for Institutes'} will be charged.
+              {userType === 'candidate' ? ' ₹99 for Job Seekers' : ' ₹99 for Institutes'} will be charged.
               For testing, use Razorpay test mode.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
