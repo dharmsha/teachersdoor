@@ -205,10 +205,10 @@ const Footer = () => {
                   <div>
                     <p className="text-sm text-gray-400">Call Us</p>
                     <a 
-                      href="tel:+917070853444" 
+                      href="tel:+917667140322" 
                       className="text-white font-medium hover:text-blue-300 transition-colors"
                     >
-                      +91 7070853444
+                      +91 7667140322
                     </a>
                   </div>
                 </div>
@@ -396,7 +396,7 @@ const Footer = () => {
           
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/917070853444"
+            href="https://wa.me/917667140322"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110 hover:rotate-12 group"

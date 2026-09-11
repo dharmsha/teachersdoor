@@ -86,7 +86,7 @@ export async function POST(request) {
         planId: body.planId || 'basic',
         email: body.email || '',
         timestamp: new Date().toISOString(),
-        phone: '7070853444'
+        phone: '7667140322'
       },
       payment_capture: 1
     };
