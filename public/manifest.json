@@ -1,7 +1,7 @@
 {
-  "name": "ClassDoor - India's Leading Job Portal",
-  "short_name": "ClassDoor",
-  "description": "Search jobs, read company reviews, compare salaries in India. Find your dream job on ClassDoor.",
+  "name": "TeachersDoor - India's Leading Job Portal",
+  "short_name": "TeachersDoor",
+  "description": "Search jobs, read company reviews, compare salaries in India. Find your dream job on TeachersDoor.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -67,14 +67,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "ClassDoor Desktop View"
+      "label": "TeachersDoor Desktop View"
     },
     {
       "src": "/screenshot2.png",
       "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "ClassDoor Mobile View"
+      "label": "TeachersDoor Mobile View"
     }
   ],
   "shortcuts": [

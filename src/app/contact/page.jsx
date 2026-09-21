@@ -73,7 +73,7 @@ export default function ContactPage() {
 
   const handleWhatsAppClick = () => {
     const phoneNumber = '917404980061';
-    const message = `Hi ClassDoor Jobs Team! I need help with: ${formData.subject || 'General Inquiry'}`;
+    const message = `Hi TeachersDoor Jobs Team! I need help with: ${formData.subject || 'General Inquiry'}`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -141,10 +141,10 @@ export default function ContactPage() {
     {
       title: "Email",
       description: "For detailed queries",
-      details: "Classdoorweb@gmail.com",
+      details: "TeachersDoorweb@gmail.com",
       icon: <Mail className="h-6 w-6" />,
       color: "from-purple-500 to-pink-500",
-      action: () => window.open('mailto:Classdoorweb@gmail.com'),
+      action: () => window.open('mailto:TeachersDoorweb@gmail.com'),
       note: "Response within 4 hours"
     },
     {

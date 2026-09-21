@@ -393,7 +393,7 @@ export default function LoginPage() {
             {isSignup ? 'Create Account' : 'Welcome Back'}
           </h1>
           <p className="text-gray-600 mt-2">
-            {isSignup ? 'Start your journey with ClassDoor' : 'Login to access your dashboard'}
+            {isSignup ? 'Start your journey with TeachersDoor' : 'Login to access your dashboard'}
           </p>
           
           {/* Existing User Detection */}

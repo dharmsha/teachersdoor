@@ -220,10 +220,10 @@ const Footer = () => {
                   <div>
                     <p className="text-sm text-gray-400">Email Us</p>
                     <a 
-                      href="mailto:Classdoorweb@gmail.com" 
+                      href="mailto:TeachersDoorweb@gmail.com" 
                       className="text-white font-medium hover:text-blue-300 transition-colors"
                     >
-                      Classdoorweb@gmail.com
+                      TeachersDoorweb@gmail.com
                     </a>
                   </div>
                 </div>
@@ -338,11 +338,11 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-4 md:mb-0">
               <p className="text-gray-400 text-sm">
-                © {currentYear} <span className="text-white font-medium">ClassDoor Jobs</span>. All rights reserved.
+                © {currentYear} <span className="text-white font-medium">TeachersDoor Jobs</span>. All rights reserved.
               </p>
               <p className="text-xs text-gray-500 mt-1">
                 Made with <Heart className="h-3 w-3 inline mx-1 text-red-500 animate-pulse" /> 
-                 CreatorsMind
+                 TeachersDoor
               </p>
             </div>
             

@@ -10,26 +10,26 @@ import PWAInstallPrompt from '@/src/components/PWAInstallPrompt';
 // const inter = Inter({ subsets: ['latin'] });
 
 // 👇 Base URL define करें
-const BASE_URL = 'https://www.classdoor.in';
+const BASE_URL = 'https://www.TeachersDoor.in';
 
 export const metadata: Metadata = {
-  title: 'ClassDoor - India\'s No. 1 Job Portal with Company Reviews & Salaries',
-  description: 'ClassDoor - Search 50,000+ jobs in India. Read company reviews, compare salaries, find career opportunities in Bengaluru, Mumbai, Delhi, Hyderabad, Pune. Get interview tips and career advice.',
+  title: 'TeachersDoor - India\'s No. 1 Job Portal with Company Reviews & Salaries',
+  description: 'TeachersDoor - Search 50,000+ jobs in India. Read company reviews, compare salaries, find career opportunities in Bengaluru, Mumbai, Delhi, Hyderabad, Pune. Get interview tips and career advice.',
   keywords: 'jobs in India, company reviews, salary, Bengaluru jobs, Mumbai jobs, Delhi jobs, job portal, career, employment, interview questions, job search, IT jobs, government jobs, fresher jobs',
   
   // Open Graph for social media
   openGraph: {
     type: 'website',
     url: BASE_URL,
-    title: 'ClassDoor - India\'s No. 1 Job Portal with Company Reviews & Salaries',
+    title: 'TeachersDoor - India\'s No. 1 Job Portal with Company Reviews & Salaries',
     description: 'Search 50,000+ jobs, read company reviews, compare salaries. Find your dream job in India.',
-    siteName: 'ClassDoor',
+    siteName: 'TeachersDoor',
     images: [
       {
         url: `${BASE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'ClassDoor - India\'s Leading Job Portal',
+        alt: 'TeachersDoor - India\'s Leading Job Portal',
       },
     ],
     locale: 'en_IN',
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: 'summary_large_image',
-    title: 'ClassDoor - India\'s No. 1 Job Portal',
+    title: 'TeachersDoor - India\'s No. 1 Job Portal',
     description: 'Search jobs, company reviews, salary information for Indian companies',
     images: [`${BASE_URL}/twitter-image.jpg`],
-    creator: '@classdoor_in',
-    site: '@classdoor_in',
+    creator: '@TeachersDoor_in',
+    site: '@TeachersDoor_in',
   },
 
   // Robots
@@ -59,9 +59,9 @@ export const metadata: Metadata = {
   },
 
   // Additional meta
-  authors: [{ name: 'ClassDoor Team' }],
-  creator: 'ClassDoor',
-  publisher: 'ClassDoor Pvt Ltd',
+  authors: [{ name: 'TeachersDoor Team' }],
+  creator: 'TeachersDoor',
+  publisher: 'TeachersDoor Pvt Ltd',
   formatDetection: {
     email: false,
     address: false,
@@ -101,7 +101,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'ClassDoor - India Job Portal',
+    name: 'TeachersDoor - India Job Portal',
     url: BASE_URL,
     description: 'Find jobs in India with company reviews and salary information',
     potentialAction: {
@@ -116,7 +116,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   const organizationJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'ClassDoor',
+    name: 'TeachersDoor',
     url: BASE_URL,
     logo: `${BASE_URL}/logo.png`,
     description: 'India\'s leading job portal with company reviews and salary insights',
@@ -136,10 +136,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
       availableLanguage: ['en', 'hi'],
     },
     sameAs: [
-      'https://twitter.com/classdoor_in',
-      'https://www.linkedin.com/company/classdoor',
-      'https://www.facebook.com/classdoor.in',
-      'https://www.instagram.com/classdoor.in',
+      'https://twitter.com/TeachersDoor_in',
+      'https://www.linkedin.com/company/TeachersDoor',
+      'https://www.facebook.com/TeachersDoor.in',
+      'https://www.instagram.com/TeachersDoor.in',
     ],
   };
 
@@ -151,7 +151,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     description: 'Search for jobs across India',
     hiringOrganization: {
       '@type': 'Organization',
-      name: 'ClassDoor',
+      name: 'TeachersDoor',
       sameAs: BASE_URL,
     },
     jobLocation: {
@@ -171,7 +171,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   const webAppJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: 'ClassDoor',
+    name: 'TeachersDoor',
     url: BASE_URL,
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Any',
@@ -226,8 +226,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
         />
         
         {/* 👇 PWA Meta Tags */}
-        <meta name="application-name" content="ClassDoor" />
-        <meta name="apple-mobile-web-app-title" content="ClassDoor" />
+        <meta name="application-name" content="TeachersDoor" />
+        <meta name="apple-mobile-web-app-title" content="TeachersDoor" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="format-detection" content="telephone=no" />
@@ -279,10 +279,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 window.addEventListener('load', function() {
                   navigator.serviceWorker.register('/sw.js').then(
                     function(registration) {
-                      console.log('ClassDoor SW registered: ', registration.scope);
+                      console.log('TeachersDoor SW registered: ', registration.scope);
                     },
                     function(err) {
-                      console.log('ClassDoor SW registration failed: ', err);
+                      console.log('TeachersDoor SW registration failed: ', err);
                     }
                   );
                 });

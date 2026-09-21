@@ -13,7 +13,7 @@ export default function robots(): MetadataRoute.Robots {
         '/dashboard/',
       ],
     },
-    sitemap: 'https://www.classdoor.in/sitemap.xml',
-    host: 'https://www.classdoor.in',
+    sitemap: 'https://www.TeachersDoor.in/sitemap.xml',
+    host: 'https://www.TeachersDoor.in',
   }
 }

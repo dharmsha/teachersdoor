@@ -328,7 +328,7 @@ export default function PaymentContent() {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: order.currency,
-        name: 'ClassDoor Pro',
+        name: 'TeachersDoor Pro',
         description: `${selectedPlan.name} - Lifetime Access`,
         image: '/logo.png',
         order_id: order.id,
@@ -695,11 +695,11 @@ export default function PaymentContent() {
                           <span>WhatsApp: +91 70708 53444</span>
                         </a>
                         <a 
-                          href="mailto:support@classdoor.in"
+                          href="mailto:support@TeachersDoor.in"
                           className="flex items-center space-x-3 hover:text-blue-300 transition"
                         >
                           <Mail className="h-4 w-4" />
-                          <span>support@classdoor.in</span>
+                          <span>support@TeachersDoor.in</span>
                         </a>
                         <p className="text-sm text-gray-400 mt-3">
                           Available 9 AM - 9 PM, 7 days a week

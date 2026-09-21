@@ -45,7 +45,7 @@ export default function PWAInstallPrompt() {
           </svg>
         </div>
         <div className="flex-1">
-          <p className="text-gray-800 font-medium mb-1">📱 Install ClassDoor App</p>
+          <p className="text-gray-800 font-medium mb-1">📱 Install TeachersDoor App</p>
           <p className="text-gray-600 text-sm mb-3">Get instant access to jobs and reviews</p>
           <div className="flex gap-2">
             <button
