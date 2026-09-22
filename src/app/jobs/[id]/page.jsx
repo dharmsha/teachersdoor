@@ -611,7 +611,7 @@ export default function JobDetailPage() {
               </p>
               <div className="space-y-2">
                 <a
-                  href="tel:+919528794938"
+                  href="tel:+917250945759"
                   className="flex items-center text-sm text-blue-600 hover:text-blue-800 font-medium"
                 >
                   <Phone className="h-4 w-4 mr-2" />
